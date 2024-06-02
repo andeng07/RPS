@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+}
+
+.game-frame {
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 70rem;
+    overflow: hidden;
+}
+
+.card {
+    margin: 100px 50px;
+    padding: 75px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+}
+
+.options {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.options div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
